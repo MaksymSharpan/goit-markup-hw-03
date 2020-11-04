@@ -21,7 +21,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -36,7 +37,7 @@ h6 {
   display: flex;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -45,7 +46,7 @@ h6,
 p {
   margin-top: 0;
   margin-bottom: 0;
-}
+} */
 /* .list.nav .navi {
   margin-right: 50px;
 
@@ -139,7 +140,7 @@ p {
 
 /* MAIN */
 /* .page-header {
-  background-color: salmon;
+  margin-top: 20px;
 } */
 
 .hero {
@@ -289,6 +290,9 @@ p {
   flex-wrap: wrap;
   justify-content: center;
 }
+.item-team {
+  text-align: center;
+}
 .item-team + .item-team {
   margin-left: 30px;
 }
@@ -342,6 +346,9 @@ p {
 
 .filter-section {
   padding-top: 94px;
+  padding-bottom: 94px;
+
+  outline: 2px solid yellowgreen;
 }
 
 .list.filter {
@@ -364,9 +371,23 @@ p {
   flex-wrap: wrap;
   padding-top: 50px;
 }
-.list.container {
+/* .list.container {
   justify-content: center;
+} */
+
+.item-company {
+  width: 370px;
+  justify-content: center;
+
+  outline: 2px solid tomato;
+
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
+.item-company:nth-child(3n) {
+  margin-right: 0;
+}
+
 .company {
   font-weight: 700;
   font-size: 18px;
@@ -374,9 +395,10 @@ p {
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 
-  margin-top: 0;
+  margin-left: 24px;
+  margin-top: 20px;
   margin-bottom: 4px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 .company-filter {
   font-weight: 400;
@@ -386,7 +408,8 @@ p {
   color: var(--secondary-text-color);
 
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 20px;
+  margin-left: 24px;
 }
 
 /* footer */
