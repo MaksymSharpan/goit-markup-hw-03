@@ -209,13 +209,21 @@ body {
   background-color: var(--accent-color);
   color: #ffffff;
 }
+.list.container img {
+  margin-bottom: 20px;
 
+  outline: 1px solid yellow;
+}
 .company {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
+
+  margin-top: 0;
+  margin-bottom: 4px;
+  outline: 1px solid red;
 }
 .company-filter {
   font-weight: 400;
@@ -223,6 +231,9 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* footer */

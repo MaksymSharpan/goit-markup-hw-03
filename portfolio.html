@@ -15,31 +15,35 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="logo" href="./index.html"><span class="web">Web</span>Studio</a>
+    <header class="page-header">
+      <div class="container header">
+        <nav>
+          <a class="logo" href="./index.html"><span class="web">Web</span>Studio</a>
+          <ul class="list">
+            <li><a href="./index.html" class="link-page current">Студия</a></li>
+            <li><a href="./portfolio.html" class="link-page">Портфолио</a></li>
+            <li><a href="#footer-address" class="link-page">Контакты</a></li>
+          </ul>
+        </nav>
         <ul class="list">
-          <li><a href="./index.html" class="link-page">Студия</a></li>
-          <li><a href="./portfolio.html" class="link-page current">Портфолио</a></li>
-          <li><a href="#footer-address" class="link-page">Контакты</a></li>
+          <li><a href="mailto:info@devstudio.com" class="link-contacts">info@devstudio.com</a></li>
+          <li><a href="tel:380961111111" class="link-contacts">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li><a href="mailto:info@devstudio.com" class="link-contacts">info@devstudio.com</a></li>
-        <li><a href="tel:380961111111" class="link-contacts">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
     <main>
       <section>
-        <h1 hidden>Фильтры</h1>
-        <ul class="list">
-          <li><button class="filter-btn">Все</button></li>
-          <li><button class="filter-btn">Веб-сайты</button></li>
-          <li><button class="filter-btn">Приложения</button></li>
-          <li><button class="filter-btn">Дизайн</button></li>
-          <li><button class="filter-btn">Маркетинг</button></li>
-        </ul>
-        <ul class="list">
+        <div class="container">
+          <h1 hidden>Фильтры</h1>
+          <ul class="list">
+            <li><button class="filter-btn">Все</button></li>
+            <li><button class="filter-btn">Веб-сайты</button></li>
+            <li><button class="filter-btn">Приложения</button></li>
+            <li><button class="filter-btn">Дизайн</button></li>
+            <li><button class="filter-btn">Маркетинг</button></li>
+          </ul>
+        </div>
+        <ul class="list container">
           <li>
             <img src="./images/portfolio1.jpg" alt="Технокряк" width="370" />
             <h2 class="company">Технокряк</h2>
@@ -88,9 +92,9 @@
         </ul>
       </section>
     </main>
-    <div class="footer-address">
+    <div class="container footer">
       <footer id="footer-address">
-        <a class="logo down" href="./index.html"><span class="web">Web</span>Studio</a>
+        <a href="./index.html" class="logo down"><span class="web">Web</span>Studio</a>
         <address>
           <ul class="list">
             <li>
