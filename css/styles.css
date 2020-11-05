@@ -138,10 +138,10 @@ p {
   color: var(--accent-color);
 }
 
+.page-header {
+  border: 1px solid #ececec;
+}
 /* MAIN */
-/* .page-header {
-  margin-top: 20px;
-} */
 
 .hero {
   text-align: center;
@@ -150,7 +150,7 @@ p {
   padding-bottom: 200px;
   padding-top: 200px;
 
-  background-color: cadetblue;
+  background-color: var(--page-footer-color);
 }
 .button {
   color: #ffffff;
@@ -188,7 +188,7 @@ p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: goldenrod;
+  color: #fff;
 
   margin-top: 0;
   margin-bottom: 30px;
@@ -378,7 +378,7 @@ p {
 .item-company {
   width: 370px;
   justify-content: center;
-
+  border: 1px solid #eeeeee;
   /* outline: 2px solid tomato; */
 
   margin-right: 30px;
