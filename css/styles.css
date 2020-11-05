@@ -292,6 +292,7 @@ p {
 }
 .item-team {
   text-align: center;
+  width: 270px;
 }
 .item-team + .item-team {
   margin-left: 30px;
